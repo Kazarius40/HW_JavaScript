@@ -10,6 +10,7 @@ const PI = 3.14;
 let i = 16;
 let j = true;
 let k = false;
+
 console.log(a);
 console.log(b);
 console.log(c);
@@ -22,3 +23,18 @@ console.log(PI);
 console.log(i);
 console.log(j);
 console.log(k);
+
+let l = ['hello', 'owu', 'com', 'ua', 1, 10, -999, 123, 3.14, 16, true, false];
+
+console.log(l[0]);
+console.log(l[1]);
+console.log(l[2]);
+console.log(l[3]);
+console.log(l[4]);
+console.log(l[5]);
+console.log(l[6]);
+console.log(l[7]);
+console.log(l[8]);
+console.log(l[9]);
+console.log(l[10]);
+console.log(l[11]);
