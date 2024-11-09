@@ -12,20 +12,30 @@ let users = [
     {name: 'max', age: 31, status: true},
 ];
 
-for (let a of users) {
-    if (a.status){
-        console.log(a);
+// for (let a of users) {
+//     if (a.status){
+//         console.log(a);
+//     }
+// }
+
+for (let a = 0; a < users.length; a++) {
+    if (users[a].status) {
+        document.write(`<h3>`);
+        for (let k in users[a]) {
+            document.write(k, ` - `, users[a][k], ` ; `);
+        }
+        document.write(`</h3>`);
     }
 }
 
-for (let b of users) {
-    if(!b.status) {
-        console.log(b);
-    }
-}
-
-for (let c of users) {
-    if(c.age > 30) {
-        console.log(c);
-    }
-}
+// for (let b of users) {
+//     if(!b.status) {
+//         console.log(b);
+//     }
+// }
+//
+// for (let c of users) {
+//     if(c.age > 30) {
+//         console.log(c);
+//     }
+// }
