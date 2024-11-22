@@ -11,8 +11,8 @@ let coursesAndDurationArray = [
 ];
 
 let div;
-for(let item of coursesAndDurationArray){
+for (let item of coursesAndDurationArray) {
     div = document.createElement(`div`);
-    div.innerText =`${item.title} ${item.monthDuration}`;
+    div.innerText = item.title + ' - ' + item.monthDuration + ' months';
     document.body.appendChild(div);
 }

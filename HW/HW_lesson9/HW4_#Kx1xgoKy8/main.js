@@ -18,10 +18,10 @@ for (let item of coursesAndDurationArray) {
     p = document.createElement(`p`);
 
     h1.classList.add(`heading`);
-    h1.innerText = `${item.title}`;
+    h1.innerText = item.title;
 
     p.classList.add(`description`);
-    p.innerText = `${item.monthDuration}`;
+    p.innerText = item.monthDuration + ' - months';
 
     div.classList.add(`item`);
     div.append(h1, p);
