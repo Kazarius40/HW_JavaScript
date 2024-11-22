@@ -1,11 +1,11 @@
 // - створити блок,
 let div = document.createElement(`div`);
+let p = document.createElement(`p`);
+p.innerText = `Це щоб перевірити з наповненням!`;
+div.appendChild(p);
 
 // - додати йому класи wrap, collapse, alpha, beta
-div.classList.add(`wrap`);
-div.classList.add(`collapse`);
-div.classList.add(`alpha`);
-div.classList.add(`beta`);
+div.classList.add(`wrap`, `collapse`, `alpha`, `beta`);
 
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 div.style.background = `orange`;
